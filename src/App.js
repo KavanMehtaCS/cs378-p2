@@ -84,7 +84,7 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <Header restaurantLogo={restaurantLogo} />
+      <Header title="Campus Cafe" restaurantLogo={restaurantLogo} description1="Delicious, From-Scratch Recipes Close at Hand" description2 = "The Fresh Choice of UT!"/>
       <div className="overall_container">
         <div className="menu">
           {menuItems.map((item) => (
