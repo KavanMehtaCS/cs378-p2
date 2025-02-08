@@ -9,7 +9,7 @@ const MenuItem = ({ key, title, description, image, price }) => {
   return (
     <div className="container mb-4">
       <div className="item">
-        <img className="menu-item" src={`assets/${image}`} alt={title} />
+        <img className="menu-item" src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
       </div>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
